@@ -82,6 +82,7 @@ export function ArtistVideos() {
           value={artistId}
           onChange={(e) => setArtistId(e.target.value)}
           placeholder="give me a 2-integer value!!! (don't ask, just do it)"
+          maxLength={2}
         />
         <SharedButton
           text="Get me some VIDZ!"
